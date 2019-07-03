@@ -77,8 +77,8 @@ WSGI_APPLICATION = 'try.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'ptcul-db',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'ptcul',
         'USER': 'valiance',
         'PASSWORD': 'valiance',
         'HOST': 'ptcul-db.c6l1gncuxvii.us-east-1.rds.amazonaws.com',
