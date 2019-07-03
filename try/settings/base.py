@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'try.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'ptcul.db'),
-#        'USER': 'valiance',
-#        'PASSWORD': 'valiance',
-#        'HOST': 'ptcul-db.c6l1gncuxvii.us-east-1.rds.amazonaws.com',
-#        'PORT': '3306',
+        'NAME': 'ptcul',
+        'USER': 'valiance',
+        'PASSWORD': 'valiance',
+        'HOST': 'ptcul-db.c6l1gncuxvii.us-east-1.rds.amazonaws.com',
+        'PORT': '3306',
     }
 }
 
